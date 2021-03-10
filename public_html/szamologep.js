@@ -2,19 +2,24 @@
 function szamolas() {
     
     
-    
+ var valtA="";   
+ var valtB="";   
+ var valtM="";   
 function osszead(){
     var osszeg=Number(valtA)+Number(valtB);
     document.getElementById("szoveg").innerHTML = osszeg;
 }
 function kivon(){
     var osszeg=Number(valtA)-Number(valtB);
+    document.getElementById("szoveg").innerHTML = osszeg;
 }
 function szoroz(){
-    var osszeg=Number(valtA)*Number(valtB);   
+    var osszeg=Number(valtA)*Number(valtB);  
+    document.getElementById("szoveg").innerHTML = osszeg;
 }
 function eloszt(){
     var osszeg=Number(valtA)/Number(valtB);
+    document.getElementById("szoveg").innerHTML = osszeg;
 }
 
    valtA=document.getElementById("a").value;
